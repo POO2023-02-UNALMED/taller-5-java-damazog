@@ -26,6 +26,7 @@ public class Ave extends Animal {
 	
 	public Ave() {
 		super();
+		listado.add(this);
 	}
 	
 	public static int cantidadAves() {
