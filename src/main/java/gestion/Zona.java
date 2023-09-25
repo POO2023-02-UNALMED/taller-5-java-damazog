@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import java.util.List;
 
+import gestion.Zoologico;
 import zooAnimales.Animal;
 
 public class Zona {
@@ -15,11 +16,11 @@ public class Zona {
 	public Zona(String nombre, Zoologico zoo) {
 		this.nombre = nombre;
 		this.zoo = zoo;
-		new ArrayList<Animal>();
+		animales = new ArrayList<Animal>();
 	}
 	
 	public Zona() {
-		new ArrayList<Animal>();
+		animales = new ArrayList<Animal>();
 	}
 	
 	public void agregarAnimales(Animal animal) {
