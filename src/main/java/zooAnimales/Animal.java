@@ -18,6 +18,7 @@ public class Animal {
 		this.genero = genero;
 		this.zona = zona;
 		totalAnimales++;
+		zona.agregarAnimales(this);
 	}
 	
 	public Animal(String nombre, int edad, String habitat, String genero) {
