@@ -25,7 +25,14 @@ public class Animal {
 	}
 	
 	public static String totalPorTipo() {
-		
+		StringBuilder resultado = new StringBuilder();
+		 resultado.append("Mamiferos: ").append(Mamifero.cantidadMamiferos()).append("\n");
+	     resultado.append("Aves: ").append(Ave.cantidadAves()).append("\n");
+	     resultado.append("Reptiles: ").append(Reptil.cantidadReptiles()).append("\n");
+	     resultado.append("Peces: ").append(Pez.cantidadPeces()).append("\n");
+	     resultado.append("Anfibios: ").append(Anfibio.cantidadAnfibios()).append("\n");
+	     
+	     return resultado.toString();
 	}
 	
 	public String movimiento() {
@@ -95,8 +102,4 @@ public class Animal {
 	public void setZona(Zona zona) {
 		this.zona = zona;
 	}
-}
-
-class Ave extends Animal{
-	
 }
