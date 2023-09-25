@@ -1,4 +1,4 @@
-package java.gestion;
+package gestion;
 
 import java.util.ArrayList;
 

@@ -1,10 +1,10 @@
-package java.zooAnimales;
-
-import java.gestion.Zona;
+package zooAnimales;
 
 import java.util.ArrayList;
 
 import java.util.List;
+
+import gestion.Zona;
 
 public class Mamifero extends Animal {
 	private static List<Mamifero> listado = new ArrayList<>();

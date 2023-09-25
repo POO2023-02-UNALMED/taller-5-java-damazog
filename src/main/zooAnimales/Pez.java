@@ -1,10 +1,10 @@
-package java.zooAnimales;
-
-import java.gestion.Zona;
+package zooAnimales;
 
 import java.util.ArrayList;
 
 import java.util.List;
+
+import gestion.Zona;
 
 public class Pez extends Animal {
 	private static List<Pez> listado = new ArrayList<>();

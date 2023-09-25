@@ -1,6 +1,6 @@
-package java.zooAnimales;
+package zooAnimales;
 
-import java.gestion.Zona;
+import gestion.Zona;
 
 public class Animal {
 	

@@ -1,10 +1,10 @@
-package java.gestion;
+package gestion;
 
 import java.util.ArrayList;
 
 import java.util.List;
 
-import java.zooAnimales.Animal;
+import zooAnimales.Animal;
 
 public class Zona {
 	

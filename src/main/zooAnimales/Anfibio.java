@@ -1,10 +1,10 @@
-package java.zooAnimales;
-
-import java.gestion.Zona;
+package zooAnimales;
 
 import java.util.ArrayList;
 
 import java.util.List;
+
+import gestion.Zona;
 
 public class Anfibio extends Animal {
 	private static List<Anfibio> listado = new ArrayList<>();
