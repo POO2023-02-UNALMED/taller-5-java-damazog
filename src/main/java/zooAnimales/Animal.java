@@ -39,7 +39,7 @@ public class Animal {
 	     resultado.append("Aves: ").append(Ave.cantidadAves()).append("\n");
 	     resultado.append("Reptiles: ").append(Reptil.cantidadReptiles()).append("\n");
 	     resultado.append("Peces: ").append(Pez.cantidadPeces()).append("\n");
-	     resultado.append("Anfibios: ").append(Anfibio.cantidadAnfibios()).append("\n");
+	     resultado.append("Anfibios: ").append(Anfibio.cantidadAnfibios());
 	     
 	     return resultado.toString();
 	}
