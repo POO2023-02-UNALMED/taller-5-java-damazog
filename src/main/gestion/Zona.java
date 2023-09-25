@@ -13,8 +13,8 @@ public class Zona {
 	private List<Animal> animales;
 	
 	public Zona(String nombre, Zoologico zoo) {
-		this.nombre=nombre;
-		this.zoo=zoo;
+		this.nombre = nombre;
+		this.zoo = zoo;
 		new ArrayList<Animal>();
 	}
 	
