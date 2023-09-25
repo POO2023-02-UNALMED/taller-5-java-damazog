@@ -52,7 +52,7 @@ public class Animal {
 	public String toString() {
 	    StringBuilder resultado = new StringBuilder();
 	    
-	    resultado.append("Mi nombre es ").append(nombre).append(", tengo una edad de ").append(edad).append(", habito en ").append(habitat).append(", y mi genero es ").append(genero);
+	    resultado.append("Mi nombre es ").append(nombre).append(", tengo una edad de ").append(edad).append(", habito en ").append(habitat).append(" y mi genero es ").append(genero);
 
 	    if (zona != null) {
 	        resultado.append(", la zona en la que me ubico es ").append(zona.getNombre()); //idk if this necessary
